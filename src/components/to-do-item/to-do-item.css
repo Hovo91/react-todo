@@ -1,0 +1,24 @@
+.to-do-item.done {
+  text-decoration: line-through;
+}
+.to-do-item.important {
+  font-weight: bold;
+  color: blue;
+}
+.to-do-item {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.list-group {
+  width: 335px;
+  margin-top: 10px;
+}
+.list-group-item {
+  margin-bottom: 5px;
+}
+.delete-btn,
+.exclamation-btn {
+  width: 35px;
+  margin-left: 5px;
+}
